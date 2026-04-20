@@ -1,0 +1,110 @@
+{
+  "89898": {
+    "name": "Yash Sharma",
+    "guardian_name": "Rajesh Sharma",
+    "guardian_phone": "6397141314",
+    "course": "CS",
+    "year": "1",
+    "class_name": "CS1",
+    "section": "CS1"
+  },
+  "4646646464": {
+    "name": "Priya Verma",
+    "guardian_name": "Suman Verma",
+    "guardian_phone": "9897057701",
+    "course": "CS",
+    "year": "2",
+    "class_name": "CS2",
+    "section": "CS2"
+  },
+  "10001": {
+    "name": "Aarav Singh",
+    "guardian_name": "Mohan Singh",
+    "guardian_phone": "8077893851",
+    "course": "AIML",
+    "year": "2",
+    "class_name": "AIML",
+    "section": "AIML"
+  },
+  "10002": {
+    "name": "Neha Gupta",
+    "guardian_name": "Poonam Gupta",
+    "guardian_phone": "8791301224",
+    "course": "IT",
+    "year": "2",
+    "class_name": "IT",
+    "section": "IT"
+  },
+  "10003": {
+    "name": "Ritika Chauhan",
+    "guardian_name": "Mahesh Chauhan",
+    "guardian_phone": "7011751431",
+    "course": "ECE",
+    "year": "2",
+    "class_name": "ECE",
+    "section": "ECE"
+  },
+  "10004": {
+    "name": "Kunal Yadav",
+    "guardian_name": "Anita Yadav",
+    "guardian_phone": "9897057701",
+    "course": "EN",
+    "year": "2",
+    "class_name": "EN",
+    "section": "EN"
+  },
+  "10005": {
+    "name": "Sakshi Rana",
+    "guardian_name": "Vijay Rana",
+    "guardian_phone": "9897057701",
+    "course": "ME",
+    "year": "2",
+    "class_name": "ME",
+    "section": "ME"
+  },
+  "888888": {
+    "name": "gg",
+    "guardian_phone": "9897057701",
+    "guardian_name": "jj",
+    "course": "IT",
+    "class_name": "IT",
+    "year": "2",
+    "section": "IT"
+  },
+  "gggg": {
+    "name": "ddddf",
+    "guardian_phone": "9897057701",
+    "guardian_name": "dssds",
+    "course": "CS1",
+    "class_name": "CS1",
+    "year": "2",
+    "section": "CS1"
+  },
+  "786905": {
+    "name": "gg",
+    "guardian_phone": "6397141314",
+    "guardian_name": "anu",
+    "course": "CS",
+    "class_name": "CS2",
+    "year": "2",
+    "section": "CS2"
+  },
+  "8808": {
+    "name": "pp",
+    "guardian_phone": "6397141314",
+    "guardian_name": "yu",
+    "course": "IT",
+    "class_name": "IT",
+    "year": "2",
+    "section": "IT"
+  },
+  "gg": {
+    "name": "gggg",
+    "guardian_phone": "693141314",
+    "guardian_name": "hh",
+    "course": "CS",
+    "class_name": "CS2",
+    "year": "cs2",
+    "section": "CS2"
+  }
+}

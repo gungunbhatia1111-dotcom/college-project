@@ -1,0 +1,626 @@
+{
+  "timezone_note": "Times are interpreted using the computer's local clock.",
+  "semester": "IV",
+  "default_section": "CS1",
+  "notes": [
+    "Structured from the Semester IV timetable screenshots shared in chat.",
+    "Some merged lab blocks and blurred cells were normalized into period-wise entries.",
+    "The top-level `days` block mirrors `sections.CS1.days` so the current app remains compatible."
+  ],
+  "subject_teacher_ids": {
+    "tafl": ["teacher_tafl"],
+    "maths-iv": ["teacher_maths4"],
+    "oops": ["teacher_oops"],
+    "os": ["teacher_os"],
+    "os lab": ["teacher_os_lab"],
+    "oops lab": ["teacher_oops_lab"],
+    "uhv": ["teacher_uhv"],
+    "cs": ["teacher_cs"],
+    "soft skill": ["teacher_soft_skill"],
+    "aptitude": ["teacher_aptitude"],
+    "mini project": ["teacher_mini_project"],
+    "itcs": ["teacher_itcs"],
+    "itcs / remaining lab": ["teacher_itcs"],
+    "cc": ["teacher_cc"],
+    "coding skill": ["teacher_coding_skill"],
+    "cyber security workshop": ["teacher_cyber_security"],
+    "seminar": ["teacher_seminar"],
+    "online quiz / project": ["teacher_online_quiz"],
+    "net lab": ["teacher_net_lab"],
+    "python": ["teacher_python"],
+    "python lab": ["teacher_python_lab"],
+    "stt": ["teacher_stt"],
+    "scm": ["teacher_scm"],
+    "scm lab": ["teacher_scm_lab"],
+    "c++": ["teacher_cpp"],
+    "em-i": ["teacher_em1"],
+    "ds": ["teacher_ds"],
+    "ss": ["teacher_ss"],
+    "ac": ["teacher_ac"],
+    "ce": ["teacher_ce"],
+    "tc": ["teacher_tc"],
+    "som": ["teacher_som"],
+    "nas": ["teacher_nas"],
+    "msc": ["teacher_msc"],
+    "de": ["teacher_de"],
+    "mfg": ["teacher_mfg"],
+    "ese": ["teacher_ese"],
+    "atd": ["teacher_atd"],
+    "cfd": ["teacher_cfd"],
+    "communication lab": ["teacher_communication_lab"],
+    "analog circuit lab": ["teacher_analog_circuit_lab"],
+    "ss lab": ["teacher_ss_lab"],
+    "p spice lab": ["teacher_p_spice_lab"],
+    "em-i lab": ["teacher_emd_lab"],
+    "de lab": ["teacher_de_lab"],
+    "digital electronics lab": ["teacher_de_lab"],
+    "camd-ii lab": ["teacher_camd_lab"]
+  },
+  "sections": {
+    "CS1": {
+      "room": "328",
+      "teacher_ids": ["mentor_cs", "mentor_common"],
+      "days": {
+        "monday": [
+          { "start": "08:30", "end": "09:30", "activity": "TAFL" },
+          { "start": "09:30", "end": "10:30", "activity": "MATHS-IV" },
+          { "start": "10:30", "end": "10:50", "activity": "Break" },
+          { "start": "10:50", "end": "11:50", "activity": "OS LAB" },
+          { "start": "11:50", "end": "12:50", "activity": "CC" },
+          { "start": "12:50", "end": "13:40", "activity": "Lunch" },
+          { "start": "13:40", "end": "14:40", "activity": "Sports and Yoga" },
+          { "start": "14:40", "end": "15:40", "activity": "Sports and Yoga" }
+        ],
+        "tuesday": [
+          { "start": "08:30", "end": "09:30", "activity": "OOPS" },
+          { "start": "09:30", "end": "10:30", "activity": "OS" },
+          { "start": "10:30", "end": "10:50", "activity": "Break" },
+          { "start": "10:50", "end": "11:50", "activity": "OOPS" },
+          { "start": "11:50", "end": "12:50", "activity": "TAFL" },
+          { "start": "12:50", "end": "13:40", "activity": "Lunch" },
+          { "start": "13:40", "end": "14:40", "activity": "ITCS" },
+          { "start": "14:40", "end": "15:40", "activity": "TAFL" }
+        ],
+        "wednesday": [
+          { "start": "08:30", "end": "09:30", "activity": "OOPS" },
+          { "start": "09:30", "end": "10:30", "activity": "UHV" },
+          { "start": "10:30", "end": "10:50", "activity": "Break" },
+          { "start": "10:50", "end": "11:50", "activity": "OOPS" },
+          { "start": "11:50", "end": "12:50", "activity": "OS" },
+          { "start": "12:50", "end": "13:40", "activity": "Lunch" },
+          { "start": "13:40", "end": "15:40", "activity": "Sports and Yoga" }
+        ],
+        "thursday": [
+          { "start": "08:30", "end": "09:30", "activity": "MATHS-IV" },
+          { "start": "09:30", "end": "10:30", "activity": "UHV" },
+          { "start": "10:30", "end": "10:40", "activity": "Break" },
+          { "start": "10:40", "end": "11:30", "activity": "CS" },
+          { "start": "11:30", "end": "12:20", "activity": "OOPS" },
+          { "start": "12:20", "end": "13:10", "activity": "Lunch" },
+          { "start": "13:10", "end": "14:00", "activity": "OOPS LAB" },
+          { "start": "14:00", "end": "14:50", "activity": "OOPS LAB" },
+          { "start": "14:50", "end": "15:40", "activity": "Club Activity" }
+        ],
+        "friday": [
+          { "start": "08:30", "end": "09:30", "activity": "TAFL" },
+          { "start": "09:30", "end": "10:30", "activity": "OS" },
+          { "start": "10:30", "end": "10:50", "activity": "Break" },
+          { "start": "10:50", "end": "11:50", "activity": "Cyber Security Workshop" },
+          { "start": "11:50", "end": "12:50", "activity": "Mini Project" },
+          { "start": "12:50", "end": "13:40", "activity": "Lunch" },
+          { "start": "13:40", "end": "14:40", "activity": "Mini Project" },
+          { "start": "14:40", "end": "15:40", "activity": "Coding Skill" },
+          { "start": "15:40", "end": "16:40", "activity": "CS" }
+        ],
+        "saturday": [
+          { "start": "08:30", "end": "09:30", "activity": "UHV" },
+          { "start": "09:30", "end": "10:30", "activity": "ITCS / Remaining Lab" },
+          { "start": "10:30", "end": "10:50", "activity": "Break" },
+          { "start": "10:50", "end": "11:50", "activity": "Mini Project" },
+          { "start": "11:50", "end": "12:50", "activity": "Seminar" },
+          { "start": "12:50", "end": "13:40", "activity": "Lunch" },
+          { "start": "13:40", "end": "14:40", "activity": "MATHS-IV" },
+          { "start": "14:40", "end": "15:40", "activity": "Soft Skill" },
+          { "start": "15:40", "end": "16:40", "activity": "TAFL" }
+        ],
+        "sunday": []
+      }
+    },
+    "CS2": {
+      "room": "318",
+      "teacher_ids": ["mentor_cs", "mentor_common"],
+      "days": {
+        "monday": [
+          { "start": "08:30", "end": "09:30", "activity": "OS" },
+          { "start": "09:30", "end": "10:30", "activity": "TAFL" },
+          { "start": "10:30", "end": "10:50", "activity": "Break" },
+          { "start": "10:50", "end": "11:50", "activity": "Aptitude" },
+          { "start": "11:50", "end": "12:50", "activity": "Seminar" },
+          { "start": "12:50", "end": "13:40", "activity": "Lunch" },
+          { "start": "13:40", "end": "14:40", "activity": "UHV" },
+          { "start": "14:40", "end": "15:40", "activity": "Soft Skill" },
+          { "start": "15:40", "end": "16:40", "activity": "Library" }
+        ],
+        "tuesday": [
+          { "start": "08:30", "end": "09:30", "activity": "TAFL" },
+          { "start": "09:30", "end": "10:30", "activity": "OOPS" },
+          { "start": "10:30", "end": "10:50", "activity": "Break" },
+          { "start": "10:50", "end": "11:50", "activity": "CS" },
+          { "start": "11:50", "end": "12:50", "activity": "Mini Project" },
+          { "start": "12:50", "end": "13:40", "activity": "Lunch" },
+          { "start": "13:40", "end": "14:40", "activity": "TAFL" },
+          { "start": "14:40", "end": "15:40", "activity": "Net Lab" },
+          { "start": "15:40", "end": "16:40", "activity": "UHV" }
+        ],
+        "wednesday": [
+          { "start": "08:30", "end": "09:30", "activity": "MATHS-IV" },
+          { "start": "09:30", "end": "10:30", "activity": "TAFL" },
+          { "start": "10:30", "end": "10:50", "activity": "Break" },
+          { "start": "10:50", "end": "11:50", "activity": "UHV" },
+          { "start": "11:50", "end": "12:50", "activity": "Online Quiz / Project" },
+          { "start": "12:50", "end": "13:40", "activity": "Lunch" },
+          { "start": "13:40", "end": "15:40", "activity": "Sports and Yoga" }
+        ],
+        "thursday": [
+          { "start": "08:30", "end": "09:30", "activity": "OOPS" },
+          { "start": "09:30", "end": "10:30", "activity": "OS" },
+          { "start": "10:30", "end": "10:40", "activity": "Break" },
+          { "start": "10:40", "end": "11:30", "activity": "Soft Skill" },
+          { "start": "11:30", "end": "12:20", "activity": "Mini Project" },
+          { "start": "12:20", "end": "13:10", "activity": "Lunch" },
+          { "start": "13:10", "end": "14:00", "activity": "OOPS LAB" },
+          { "start": "14:00", "end": "14:50", "activity": "OS LAB" },
+          { "start": "14:50", "end": "15:40", "activity": "Club Activity" }
+        ],
+        "friday": [
+          { "start": "08:30", "end": "09:30", "activity": "CS" },
+          { "start": "09:30", "end": "10:30", "activity": "MATHS-IV" },
+          { "start": "10:30", "end": "10:50", "activity": "Break" },
+          { "start": "10:50", "end": "11:50", "activity": "Seminar" },
+          { "start": "11:50", "end": "12:50", "activity": "OOPS" },
+          { "start": "12:50", "end": "13:40", "activity": "Lunch" },
+          { "start": "13:40", "end": "14:40", "activity": "MATHS-IV" },
+          { "start": "14:40", "end": "15:40", "activity": "Library" },
+          { "start": "15:40", "end": "16:40", "activity": "Library" }
+        ],
+        "saturday": [
+          { "start": "08:30", "end": "09:30", "activity": "OS" },
+          { "start": "09:30", "end": "10:30", "activity": "TAFL" },
+          { "start": "10:30", "end": "10:50", "activity": "Break" },
+          { "start": "10:50", "end": "11:50", "activity": "OOPS LAB" },
+          { "start": "11:50", "end": "12:50", "activity": "OOPS LAB" },
+          { "start": "12:50", "end": "13:40", "activity": "Lunch" },
+          { "start": "13:40", "end": "14:40", "activity": "Coding Skill" },
+          { "start": "14:40", "end": "15:40", "activity": "MATHS-IV" },
+          { "start": "15:40", "end": "16:50", "activity": "Soft Skill" }
+        ],
+        "sunday": []
+      }
+    },
+    "AIML": {
+      "room": "319",
+      "teacher_ids": ["mentor_common"],
+      "days": {
+        "monday": [
+          { "start": "08:30", "end": "09:30", "activity": "OS" },
+          { "start": "09:30", "end": "10:30", "activity": "Soft Skill" },
+          { "start": "10:30", "end": "10:50", "activity": "Break" },
+          { "start": "10:50", "end": "11:50", "activity": "Library" },
+          { "start": "11:50", "end": "12:50", "activity": "OOPS" },
+          { "start": "12:50", "end": "13:40", "activity": "Lunch" },
+          { "start": "13:40", "end": "14:40", "activity": "OS Tutorial" },
+          { "start": "14:40", "end": "15:40", "activity": "Mini Project" },
+          { "start": "15:40", "end": "16:40", "activity": "MATHS-IV" }
+        ],
+        "tuesday": [
+          { "start": "08:30", "end": "09:30", "activity": "UHV" },
+          { "start": "09:30", "end": "10:30", "activity": "TAFL" },
+          { "start": "10:30", "end": "10:50", "activity": "Break" },
+          { "start": "10:50", "end": "11:50", "activity": "Online Quiz / Project" },
+          { "start": "11:50", "end": "12:50", "activity": "UHV" },
+          { "start": "12:50", "end": "13:40", "activity": "Lunch" },
+          { "start": "13:40", "end": "14:40", "activity": "Library" },
+          { "start": "14:40", "end": "15:40", "activity": "Sports and Yoga" },
+          { "start": "15:40", "end": "16:40", "activity": "Soft Skill" }
+        ],
+        "wednesday": [
+          { "start": "08:30", "end": "09:30", "activity": "CS" },
+          { "start": "09:30", "end": "10:30", "activity": "UHV" },
+          { "start": "10:30", "end": "10:50", "activity": "Break" },
+          { "start": "10:50", "end": "11:50", "activity": "OS" },
+          { "start": "11:50", "end": "12:50", "activity": "Online Quiz / Project" },
+          { "start": "12:50", "end": "13:40", "activity": "Lunch" },
+          { "start": "13:40", "end": "15:40", "activity": "Sports and Yoga" },
+          { "start": "15:40", "end": "16:40", "activity": "OS LAB" }
+        ],
+        "thursday": [
+          { "start": "08:30", "end": "09:30", "activity": "OS" },
+          { "start": "09:30", "end": "10:30", "activity": "MATHS-IV" },
+          { "start": "10:30", "end": "10:40", "activity": "Break" },
+          { "start": "10:40", "end": "11:30", "activity": "Coding Skill" },
+          { "start": "11:30", "end": "12:20", "activity": "CS" },
+          { "start": "12:20", "end": "13:10", "activity": "Lunch" },
+          { "start": "13:10", "end": "14:00", "activity": "Aptitude" },
+          { "start": "14:00", "end": "14:50", "activity": "Net Lab" },
+          { "start": "14:50", "end": "15:40", "activity": "Cyber Security Workshop" }
+        ],
+        "friday": [
+          { "start": "08:30", "end": "09:30", "activity": "MATHS-IV" },
+          { "start": "09:30", "end": "10:30", "activity": "TAFL" },
+          { "start": "10:30", "end": "10:50", "activity": "Break" },
+          { "start": "10:50", "end": "11:50", "activity": "Seminar" },
+          { "start": "11:50", "end": "12:50", "activity": "UHV" },
+          { "start": "12:50", "end": "13:40", "activity": "Lunch" },
+          { "start": "13:40", "end": "14:40", "activity": "MATHS-IV" },
+          { "start": "14:40", "end": "15:40", "activity": "Library" },
+          { "start": "15:40", "end": "16:40", "activity": "OOPS" }
+        ],
+        "saturday": [
+          { "start": "08:30", "end": "09:30", "activity": "CS" },
+          { "start": "09:30", "end": "10:30", "activity": "UHV" },
+          { "start": "10:30", "end": "10:50", "activity": "Break" },
+          { "start": "10:50", "end": "11:50", "activity": "OOPS" },
+          { "start": "11:50", "end": "12:50", "activity": "OOPS" },
+          { "start": "12:50", "end": "13:40", "activity": "Lunch" },
+          { "start": "13:40", "end": "14:40", "activity": "Mini Project" },
+          { "start": "14:40", "end": "15:40", "activity": "Seminar" },
+          { "start": "15:40", "end": "16:40", "activity": "TAFL" }
+        ],
+        "sunday": []
+      }
+    },
+    "IT": {
+      "room": "346",
+      "teacher_ids": ["mentor_common"],
+      "days": {
+        "monday": [
+          { "start": "08:30", "end": "09:30", "activity": "CS" },
+          { "start": "09:30", "end": "10:30", "activity": "UHV" },
+          { "start": "10:30", "end": "10:50", "activity": "Break" },
+          { "start": "10:50", "end": "11:50", "activity": "OS LAB" },
+          { "start": "11:50", "end": "12:50", "activity": "OS LAB" },
+          { "start": "12:50", "end": "13:40", "activity": "Lunch" },
+          { "start": "13:40", "end": "14:40", "activity": "Tutorials" },
+          { "start": "14:40", "end": "15:40", "activity": "Soft Skill" },
+          { "start": "15:40", "end": "16:40", "activity": "SCM LAB" }
+        ],
+        "tuesday": [
+          { "start": "08:30", "end": "09:30", "activity": "MATHS-IV" },
+          { "start": "09:30", "end": "10:30", "activity": "TAFL" },
+          { "start": "10:30", "end": "10:50", "activity": "Break" },
+          { "start": "10:50", "end": "11:50", "activity": "OOPS LAB" },
+          { "start": "11:50", "end": "12:50", "activity": "C++" },
+          { "start": "12:50", "end": "13:40", "activity": "Lunch" },
+          { "start": "13:40", "end": "14:40", "activity": "DS / EM-I" },
+          { "start": "14:40", "end": "15:40", "activity": "OOPS" },
+          { "start": "15:40", "end": "16:40", "activity": "Python LAB" }
+        ],
+        "wednesday": [
+          { "start": "08:30", "end": "09:30", "activity": "OS" },
+          { "start": "09:30", "end": "10:30", "activity": "UHV" },
+          { "start": "10:30", "end": "10:50", "activity": "Break" },
+          { "start": "10:50", "end": "11:50", "activity": "OS" },
+          { "start": "11:50", "end": "12:50", "activity": "MATHS-IV" },
+          { "start": "12:50", "end": "13:40", "activity": "Lunch" },
+          { "start": "13:40", "end": "14:40", "activity": "MATHS-IV" },
+          { "start": "14:40", "end": "15:40", "activity": "Cyber Security Workshop" },
+          { "start": "15:40", "end": "16:40", "activity": "STT" }
+        ],
+        "thursday": [
+          { "start": "08:30", "end": "09:30", "activity": "MATHS-IV" },
+          { "start": "09:30", "end": "10:30", "activity": "TAFL" },
+          { "start": "10:30", "end": "10:40", "activity": "Break" },
+          { "start": "10:40", "end": "11:30", "activity": "OOPS" },
+          { "start": "11:30", "end": "12:20", "activity": "Skills / Tutorial" },
+          { "start": "12:20", "end": "13:10", "activity": "Lunch" },
+          { "start": "13:10", "end": "14:00", "activity": "Aptitude" },
+          { "start": "14:00", "end": "14:50", "activity": "Soft Skill" },
+          { "start": "14:50", "end": "15:40", "activity": "SCM" }
+        ],
+        "friday": [
+          { "start": "08:30", "end": "09:30", "activity": "OS" },
+          { "start": "09:30", "end": "10:30", "activity": "UHV" },
+          { "start": "10:30", "end": "10:50", "activity": "Break" },
+          { "start": "10:50", "end": "11:50", "activity": "TAFL" },
+          { "start": "11:50", "end": "12:50", "activity": "Seminar" },
+          { "start": "12:50", "end": "13:40", "activity": "Lunch" },
+          { "start": "13:40", "end": "14:40", "activity": "Mini Project" },
+          { "start": "14:40", "end": "15:40", "activity": "OOPS" },
+          { "start": "15:40", "end": "16:40", "activity": "OOPS" }
+        ],
+        "saturday": [
+          { "start": "08:30", "end": "09:30", "activity": "MATHS-IV" },
+          { "start": "09:30", "end": "10:30", "activity": "Net Lab" },
+          { "start": "10:30", "end": "10:50", "activity": "Break" },
+          { "start": "10:50", "end": "11:50", "activity": "Online Quiz / Project" },
+          { "start": "11:50", "end": "12:50", "activity": "OOPS" },
+          { "start": "12:50", "end": "13:40", "activity": "Lunch" },
+          { "start": "13:40", "end": "14:40", "activity": "OOPS" },
+          { "start": "14:40", "end": "15:40", "activity": "Python" },
+          { "start": "15:40", "end": "16:40", "activity": "Sports and Yoga" }
+        ],
+        "sunday": []
+      }
+    },
+    "ECE": {
+      "room": "214",
+      "teacher_ids": ["mentor_common"],
+      "days": {
+        "monday": [
+          { "start": "08:30", "end": "09:30", "activity": "SS" },
+          { "start": "09:30", "end": "10:30", "activity": "AC" },
+          { "start": "10:30", "end": "10:50", "activity": "Break" },
+          { "start": "10:50", "end": "11:50", "activity": "STT / Library" },
+          { "start": "11:50", "end": "12:50", "activity": "CE" },
+          { "start": "12:50", "end": "13:40", "activity": "Lunch" },
+          { "start": "13:40", "end": "15:40", "activity": "Communication LAB" }
+        ],
+        "tuesday": [
+          { "start": "08:30", "end": "09:30", "activity": "SS" },
+          { "start": "09:30", "end": "10:30", "activity": "CE" },
+          { "start": "10:30", "end": "10:50", "activity": "Break" },
+          { "start": "10:50", "end": "11:50", "activity": "Python" },
+          { "start": "11:50", "end": "12:50", "activity": "TC" },
+          { "start": "12:50", "end": "13:40", "activity": "Lunch" },
+          { "start": "13:40", "end": "14:40", "activity": "EM-I" },
+          { "start": "14:40", "end": "15:40", "activity": "SOM" },
+          { "start": "15:40", "end": "16:40", "activity": "Python LAB" }
+        ],
+        "wednesday": [
+          { "start": "08:30", "end": "09:30", "activity": "AC" },
+          { "start": "09:30", "end": "10:30", "activity": "SS" },
+          { "start": "10:30", "end": "10:50", "activity": "Break" },
+          { "start": "10:50", "end": "11:50", "activity": "OOPS" },
+          { "start": "11:50", "end": "12:50", "activity": "MATHS-IV" },
+          { "start": "12:50", "end": "13:40", "activity": "Lunch" },
+          { "start": "13:40", "end": "14:40", "activity": "TAFL" },
+          { "start": "14:40", "end": "15:40", "activity": "TAFL" },
+          { "start": "15:40", "end": "16:40", "activity": "OS LAB" }
+        ],
+        "thursday": [
+          { "start": "08:30", "end": "09:30", "activity": "SS" },
+          { "start": "09:30", "end": "10:30", "activity": "AC" },
+          { "start": "10:30", "end": "10:40", "activity": "Break" },
+          { "start": "10:40", "end": "11:30", "activity": "CE" },
+          { "start": "11:30", "end": "12:20", "activity": "Seminar" },
+          { "start": "12:20", "end": "13:10", "activity": "Lunch" },
+          { "start": "13:10", "end": "14:00", "activity": "Analog Circuit LAB" },
+          { "start": "14:00", "end": "14:50", "activity": "Analog Circuit LAB" },
+          { "start": "14:50", "end": "15:40", "activity": "Club Activity" }
+        ],
+        "friday": [
+          { "start": "08:30", "end": "09:30", "activity": "Python" },
+          { "start": "09:30", "end": "10:30", "activity": "DS" },
+          { "start": "10:30", "end": "10:50", "activity": "Break" },
+          { "start": "10:50", "end": "11:50", "activity": "AC" },
+          { "start": "11:50", "end": "12:50", "activity": "Library" },
+          { "start": "12:50", "end": "13:40", "activity": "Lunch" },
+          { "start": "13:40", "end": "14:40", "activity": "TC" },
+          { "start": "14:40", "end": "15:40", "activity": "SS LAB" },
+          { "start": "15:40", "end": "16:40", "activity": "NAS" }
+        ],
+        "saturday": [
+          { "start": "08:30", "end": "09:30", "activity": "CE" },
+          { "start": "09:30", "end": "10:30", "activity": "AC" },
+          { "start": "10:30", "end": "10:50", "activity": "Break" },
+          { "start": "10:50", "end": "11:50", "activity": "SS" },
+          { "start": "11:50", "end": "12:50", "activity": "Aptitude" },
+          { "start": "12:50", "end": "13:40", "activity": "Lunch" },
+          { "start": "13:40", "end": "14:40", "activity": "OOPS" },
+          { "start": "14:40", "end": "15:40", "activity": "Sports and Yoga" },
+          { "start": "15:40", "end": "16:40", "activity": "Sports and Yoga" }
+        ],
+        "sunday": []
+      }
+    },
+    "EN": {
+      "room": "231",
+      "teacher_ids": ["mentor_common"],
+      "days": {
+        "monday": [
+          { "start": "08:30", "end": "09:30", "activity": "MSC" },
+          { "start": "09:30", "end": "10:30", "activity": "NAS" },
+          { "start": "10:30", "end": "10:50", "activity": "Break" },
+          { "start": "10:50", "end": "11:50", "activity": "P SPICE LAB" },
+          { "start": "11:50", "end": "12:50", "activity": "SOM" },
+          { "start": "12:50", "end": "13:40", "activity": "Lunch" },
+          { "start": "13:40", "end": "14:40", "activity": "Soft Skill" },
+          { "start": "14:40", "end": "15:40", "activity": "EM-I LAB" },
+          { "start": "15:40", "end": "16:40", "activity": "CAMD-II LAB" }
+        ],
+        "tuesday": [
+          { "start": "08:30", "end": "09:30", "activity": "EM-I" },
+          { "start": "09:30", "end": "10:30", "activity": "NAS" },
+          { "start": "10:30", "end": "10:50", "activity": "Break" },
+          { "start": "10:50", "end": "11:50", "activity": "ATD" },
+          { "start": "11:50", "end": "12:50", "activity": "SOM" },
+          { "start": "12:50", "end": "13:40", "activity": "Lunch" },
+          { "start": "13:40", "end": "14:40", "activity": "SOM" },
+          { "start": "14:40", "end": "15:40", "activity": "SOM" },
+          { "start": "15:40", "end": "16:40", "activity": "MSC" }
+        ],
+        "wednesday": [
+          { "start": "08:30", "end": "09:30", "activity": "NAS" },
+          { "start": "09:30", "end": "10:30", "activity": "DE" },
+          { "start": "10:30", "end": "10:50", "activity": "Break" },
+          { "start": "10:50", "end": "11:50", "activity": "MSC" },
+          { "start": "11:50", "end": "12:50", "activity": "MFG" },
+          { "start": "12:50", "end": "13:40", "activity": "Lunch" },
+          { "start": "13:40", "end": "15:40", "activity": "Sports and Yoga" },
+          { "start": "15:40", "end": "16:40", "activity": "MSC" }
+        ],
+        "thursday": [
+          { "start": "08:30", "end": "09:30", "activity": "TC" },
+          { "start": "09:30", "end": "10:30", "activity": "NAS" },
+          { "start": "10:30", "end": "10:40", "activity": "Break" },
+          { "start": "10:40", "end": "11:30", "activity": "DE" },
+          { "start": "11:30", "end": "12:20", "activity": "Seminar" },
+          { "start": "12:20", "end": "13:10", "activity": "Lunch" },
+          { "start": "13:10", "end": "14:00", "activity": "Soft Skill" },
+          { "start": "14:00", "end": "14:50", "activity": "Digital Electronics LAB" },
+          { "start": "14:50", "end": "15:40", "activity": "DE LAB" }
+        ],
+        "friday": [
+          { "start": "08:30", "end": "09:30", "activity": "EM-I" },
+          { "start": "09:30", "end": "10:30", "activity": "NAS" },
+          { "start": "10:30", "end": "10:50", "activity": "Break" },
+          { "start": "10:50", "end": "11:50", "activity": "ATD" },
+          { "start": "11:50", "end": "12:50", "activity": "DE" },
+          { "start": "12:50", "end": "13:40", "activity": "Lunch" },
+          { "start": "13:40", "end": "14:40", "activity": "TC" },
+          { "start": "14:40", "end": "15:40", "activity": "NAS" },
+          { "start": "15:40", "end": "16:40", "activity": "ESE" }
+        ],
+        "saturday": [
+          { "start": "08:30", "end": "09:30", "activity": "EM-I" },
+          { "start": "09:30", "end": "10:30", "activity": "CFD" },
+          { "start": "10:30", "end": "10:50", "activity": "Break" },
+          { "start": "10:50", "end": "11:50", "activity": "MSC" },
+          { "start": "11:50", "end": "12:50", "activity": "MFG" },
+          { "start": "12:50", "end": "13:40", "activity": "Lunch" },
+          { "start": "13:40", "end": "14:40", "activity": "DE" },
+          { "start": "14:40", "end": "15:40", "activity": "Sports and Yoga" },
+          { "start": "15:40", "end": "16:40", "activity": "Sports and Yoga" }
+        ],
+        "sunday": []
+      }
+    },
+    "ME": {
+      "room": "223",
+      "teacher_ids": ["mentor_common"],
+      "days": {
+        "monday": [
+          { "start": "08:30", "end": "09:30", "activity": "ESE" },
+          { "start": "09:30", "end": "10:30", "activity": "MFG" },
+          { "start": "10:30", "end": "10:50", "activity": "Break" },
+          { "start": "10:50", "end": "11:50", "activity": "Seminar" },
+          { "start": "11:50", "end": "12:50", "activity": "SOM" },
+          { "start": "12:50", "end": "13:40", "activity": "Lunch" },
+          { "start": "13:40", "end": "14:40", "activity": "Online Quiz / Project" },
+          { "start": "14:40", "end": "15:40", "activity": "ITCS" },
+          { "start": "15:40", "end": "16:40", "activity": "TAFL" }
+        ],
+        "tuesday": [
+          { "start": "08:30", "end": "09:30", "activity": "ESE" },
+          { "start": "09:30", "end": "10:30", "activity": "ESE" },
+          { "start": "10:30", "end": "10:50", "activity": "Break" },
+          { "start": "10:50", "end": "11:50", "activity": "OOPS" },
+          { "start": "11:50", "end": "12:50", "activity": "TAFL" },
+          { "start": "12:50", "end": "13:40", "activity": "Lunch" },
+          { "start": "13:40", "end": "14:40", "activity": "SOM" },
+          { "start": "14:40", "end": "15:40", "activity": "Python LAB" },
+          { "start": "15:40", "end": "16:40", "activity": "Soft Skill" }
+        ],
+        "wednesday": [
+          { "start": "08:30", "end": "09:30", "activity": "SOM" },
+          { "start": "09:30", "end": "10:30", "activity": "CFD" },
+          { "start": "10:30", "end": "10:50", "activity": "Break" },
+          { "start": "10:50", "end": "11:50", "activity": "ATD" },
+          { "start": "11:50", "end": "12:50", "activity": "MFG" },
+          { "start": "12:50", "end": "13:40", "activity": "Lunch" },
+          { "start": "13:40", "end": "15:40", "activity": "Sports and Yoga" },
+          { "start": "15:40", "end": "16:40", "activity": "ESE" }
+        ],
+        "thursday": [
+          { "start": "08:30", "end": "09:30", "activity": "ATD" },
+          { "start": "09:30", "end": "10:30", "activity": "ATD" },
+          { "start": "10:30", "end": "10:40", "activity": "Break" },
+          { "start": "10:40", "end": "11:30", "activity": "ATD LAB" },
+          { "start": "11:30", "end": "12:20", "activity": "Aptitude" },
+          { "start": "12:20", "end": "13:10", "activity": "Lunch" },
+          { "start": "13:10", "end": "14:00", "activity": "Library" },
+          { "start": "14:00", "end": "14:50", "activity": "SOM" },
+          { "start": "14:50", "end": "15:40", "activity": "Club Activity" }
+        ],
+        "friday": [
+          { "start": "08:30", "end": "09:30", "activity": "ATD" },
+          { "start": "09:30", "end": "10:30", "activity": "CFD" },
+          { "start": "10:30", "end": "10:50", "activity": "Break" },
+          { "start": "10:50", "end": "11:50", "activity": "OOPS" },
+          { "start": "11:50", "end": "12:50", "activity": "SOM" },
+          { "start": "12:50", "end": "13:40", "activity": "Lunch" },
+          { "start": "13:40", "end": "14:40", "activity": "MFG" },
+          { "start": "14:40", "end": "15:40", "activity": "Sports and Yoga" },
+          { "start": "15:40", "end": "16:40", "activity": "Sports and Yoga" }
+        ],
+        "saturday": [
+          { "start": "08:30", "end": "09:30", "activity": "ATD" },
+          { "start": "09:30", "end": "10:30", "activity": "CFD" },
+          { "start": "10:30", "end": "10:50", "activity": "Break" },
+          { "start": "10:50", "end": "11:50", "activity": "OOPS" },
+          { "start": "11:50", "end": "12:50", "activity": "MFG" },
+          { "start": "12:50", "end": "13:40", "activity": "Lunch" },
+          { "start": "13:40", "end": "14:40", "activity": "MFG" },
+          { "start": "14:40", "end": "15:40", "activity": "ESE" },
+          { "start": "15:40", "end": "16:40", "activity": "Sports and Yoga" }
+        ],
+        "sunday": []
+      }
+    }
+  },
+  "days": {
+    "monday": [
+      { "start": "08:30", "end": "09:30", "activity": "TAFL" },
+      { "start": "09:30", "end": "10:30", "activity": "MATHS-IV" },
+      { "start": "10:30", "end": "10:50", "activity": "Break" },
+      { "start": "10:50", "end": "11:50", "activity": "OS LAB" },
+      { "start": "11:50", "end": "12:50", "activity": "CC" },
+      { "start": "12:50", "end": "13:40", "activity": "Lunch" },
+      { "start": "13:40", "end": "14:40", "activity": "Sports and Yoga" },
+      { "start": "14:40", "end": "15:40", "activity": "Sports and Yoga" }
+    ],
+    "tuesday": [
+      { "start": "08:30", "end": "09:30", "activity": "OOPS" },
+      { "start": "09:30", "end": "10:30", "activity": "OS" },
+      { "start": "10:30", "end": "10:50", "activity": "Break" },
+      { "start": "10:50", "end": "11:50", "activity": "OOPS" },
+      { "start": "11:50", "end": "12:50", "activity": "TAFL" },
+      { "start": "12:50", "end": "13:40", "activity": "Lunch" },
+      { "start": "13:40", "end": "14:40", "activity": "ITCS" },
+      { "start": "14:40", "end": "15:40", "activity": "TAFL" }
+    ],
+    "wednesday": [
+      { "start": "08:30", "end": "09:30", "activity": "OOPS" },
+      { "start": "09:30", "end": "10:30", "activity": "UHV" },
+      { "start": "10:30", "end": "10:50", "activity": "Break" },
+      { "start": "10:50", "end": "11:50", "activity": "OOPS" },
+      { "start": "11:50", "end": "12:50", "activity": "OS" },
+      { "start": "12:50", "end": "13:40", "activity": "Lunch" },
+      { "start": "13:40", "end": "15:40", "activity": "Sports and Yoga" }
+    ],
+    "thursday": [
+      { "start": "08:30", "end": "09:30", "activity": "MATHS-IV" },
+      { "start": "09:30", "end": "10:30", "activity": "UHV" },
+      { "start": "10:30", "end": "10:40", "activity": "Break" },
+      { "start": "10:40", "end": "11:30", "activity": "CS" },
+      { "start": "11:30", "end": "12:20", "activity": "OOPS" },
+      { "start": "12:20", "end": "13:10", "activity": "Lunch" },
+      { "start": "13:10", "end": "14:00", "activity": "OOPS LAB" },
+      { "start": "14:00", "end": "14:50", "activity": "OOPS LAB" },
+      { "start": "14:50", "end": "15:40", "activity": "Club Activity" }
+    ],
+    "friday": [
+      { "start": "08:30", "end": "09:30", "activity": "TAFL" },
+      { "start": "09:30", "end": "10:30", "activity": "OS" },
+      { "start": "10:30", "end": "10:50", "activity": "Break" },
+      { "start": "10:50", "end": "11:50", "activity": "Cyber Security Workshop" },
+      { "start": "11:50", "end": "12:50", "activity": "Mini Project" },
+      { "start": "12:50", "end": "13:40", "activity": "Lunch" },
+      { "start": "13:40", "end": "14:40", "activity": "Mini Project" },
+      { "start": "14:40", "end": "15:40", "activity": "Coding Skill" },
+      { "start": "15:40", "end": "16:40", "activity": "CS" }
+    ],
+    "saturday": [
+      { "start": "08:30", "end": "09:30", "activity": "UHV" },
+      { "start": "09:30", "end": "10:30", "activity": "ITCS / Remaining Lab" },
+      { "start": "10:30", "end": "10:50", "activity": "Break" },
+      { "start": "10:50", "end": "11:50", "activity": "Mini Project" },
+      { "start": "11:50", "end": "12:50", "activity": "Seminar" },
+      { "start": "12:50", "end": "13:40", "activity": "Lunch" },
+      { "start": "13:40", "end": "14:40", "activity": "MATHS-IV" },
+      { "start": "14:40", "end": "15:40", "activity": "Soft Skill" },
+      { "start": "15:40", "end": "16:40", "activity": "TAFL" }
+    ],
+    "sunday": []
+  }
+}

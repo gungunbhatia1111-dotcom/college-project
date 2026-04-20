@@ -1,0 +1,196 @@
+{
+  "default_alert_teacher_ids": [
+    "mentor_cs",
+    "mentor_common"
+  ],
+  "teachers": {
+    "mentor_cs": {
+      "name": "CS Mentor",
+      "phone": "9897057701"
+    },
+    "mentor_common": {
+      "name": "Academic Coordinator",
+      "phone": "8791301224"
+    },
+    "teacher_tafl": {
+      "name": "Prof. TAFL",
+      "phone": "9100000001"
+    },
+    "teacher_maths4": {
+      "name": "Prof. Maths IV",
+      "phone": "9100000002"
+    },
+    "teacher_oops": {
+      "name": "Prof. OOPS",
+      "phone": "9100000003"
+    },
+    "teacher_os": {
+      "name": "Prof. OS",
+      "phone": "9100000004"
+    },
+    "teacher_os_lab": {
+      "name": "Prof. OS Lab",
+      "phone": "9100000005"
+    },
+    "teacher_oops_lab": {
+      "name": "Prof. OOPS Lab",
+      "phone": "9100000006"
+    },
+    "teacher_uhv": {
+      "name": "Prof. UHV",
+      "phone": "9100000007"
+    },
+    "teacher_cs": {
+      "name": "Prof. CS",
+      "phone": "9100000008"
+    },
+    "teacher_soft_skill": {
+      "name": "Prof. Soft Skill",
+      "phone": "9100000009"
+    },
+    "teacher_aptitude": {
+      "name": "Prof. Aptitude",
+      "phone": "9100000010"
+    },
+    "teacher_mini_project": {
+      "name": "Prof. Mini Project",
+      "phone": "9100000011"
+    },
+    "teacher_itcs": {
+      "name": "Prof. ITCS",
+      "phone": "9100000012"
+    },
+    "teacher_cc": {
+      "name": "Prof. CC",
+      "phone": "9100000013"
+    },
+    "teacher_coding_skill": {
+      "name": "Prof. Coding Skill",
+      "phone": "9100000014"
+    },
+    "teacher_cyber_security": {
+      "name": "Prof. Cyber Security",
+      "phone": "9100000015"
+    },
+    "teacher_seminar": {
+      "name": "Prof. Seminar",
+      "phone": "9100000016"
+    },
+    "teacher_online_quiz": {
+      "name": "Prof. Online Quiz / Project",
+      "phone": "9100000017"
+    },
+    "teacher_net_lab": {
+      "name": "Prof. Net Lab",
+      "phone": "9100000018"
+    },
+    "teacher_python": {
+      "name": "Prof. Python",
+      "phone": "9100000019"
+    },
+    "teacher_python_lab": {
+      "name": "Prof. Python Lab",
+      "phone": "9100000020"
+    },
+    "teacher_stt": {
+      "name": "Prof. STT",
+      "phone": "9100000021"
+    },
+    "teacher_scm": {
+      "name": "Prof. SCM",
+      "phone": "9100000022"
+    },
+    "teacher_scm_lab": {
+      "name": "Prof. SCM Lab",
+      "phone": "9100000023"
+    },
+    "teacher_cpp": {
+      "name": "Prof. C++",
+      "phone": "9100000024"
+    },
+    "teacher_em1": {
+      "name": "Prof. EM-I",
+      "phone": "9100000025"
+    },
+    "teacher_ds": {
+      "name": "Prof. DS",
+      "phone": "9100000026"
+    },
+    "teacher_ss": {
+      "name": "Prof. SS",
+      "phone": "9100000027"
+    },
+    "teacher_ac": {
+      "name": "Prof. AC",
+      "phone": "9100000028"
+    },
+    "teacher_ce": {
+      "name": "Prof. CE",
+      "phone": "9100000029"
+    },
+    "teacher_tc": {
+      "name": "Prof. TC",
+      "phone": "9100000030"
+    },
+    "teacher_som": {
+      "name": "Prof. SOM",
+      "phone": "9100000031"
+    },
+    "teacher_nas": {
+      "name": "Prof. NAS",
+      "phone": "9100000032"
+    },
+    "teacher_msc": {
+      "name": "Prof. MSC",
+      "phone": "9100000033"
+    },
+    "teacher_de": {
+      "name": "Prof. DE",
+      "phone": "9100000034"
+    },
+    "teacher_mfg": {
+      "name": "Prof. MFG",
+      "phone": "9100000035"
+    },
+    "teacher_ese": {
+      "name": "Prof. ESE",
+      "phone": "9100000036"
+    },
+    "teacher_atd": {
+      "name": "Prof. ATD",
+      "phone": "9100000037"
+    },
+    "teacher_cfd": {
+      "name": "Prof. CFD",
+      "phone": "9100000038"
+    },
+    "teacher_communication_lab": {
+      "name": "Prof. Communication Lab",
+      "phone": "9897057701"
+    },
+    "teacher_analog_circuit_lab": {
+      "name": "Prof. Analog Circuit Lab",
+      "phone": "6397141314"
+    },
+    "teacher_ss_lab": {
+      "name": "Prof. SS Lab",
+      "phone": "8077893851"
+    },
+    "teacher_p_spice_lab": {
+      "name": "Prof. P SPICE Lab",
+      "phone": "8077893851"
+    },
+    "teacher_emd_lab": {
+      "name": "Prof. EM-I Lab",
+      "phone": "8791301224"
+    },
+    "teacher_camd_lab": {
+      "name": "Prof. CAMD-II Lab",
+      "phone": "8077893851"
+    },
+    "teacher_de_lab": {
+      "name": "Prof. DE Lab",
+      "phone": "7302617240"
+    }
+  }
+}
